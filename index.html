@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="lesliemasai. Leslie Díaz Rojas, masoterapia en Bosque San Carlos. Salud física y mental. Energía positiva, resultados positivos.">
+  <title>lesliemasai | Masoterapia en Bosque San Carlos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="lesliemasai, inicio"><img class="brand-logo" src="assets/lesliemasai-logo-olive.png" alt="" width="72" height="72"><span>lesliemasai</span></a>
+    <span class="brand-descriptor">Masoterapia<br>mixta</span>
+    <nav aria-label="Navegación principal">
+      <a href="#tratamientos">Servicios</a>
+      <a href="#enfoque">El enfoque</a>
+    </nav>
+    <button class="nav-book" data-book>Agenda tu hora <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-title-wrap">
+        <p class="hero-intro">Masoterapia mixta con Leslie Díaz Rojas</p>
+        <h1 id="hero-title">VUELVE A SENTIRTE<br>EN TU <span>CUERPO.</span></h1>
+        <div class="hero-side">
+          <p>Un espacio para soltar la tensión.<br>Un momento para volver a ti.</p>
+          <button class="button primary" data-book>Agenda tu hora <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <figure class="hero-image">
+        <img src="assets/masoterapia-editorial.png" alt="Manos de una masoterapeuta trabajando suavemente los hombros de una mujer sentada, en un espacio de luz natural." width="1536" height="1024" fetchpriority="high">
+        <div class="image-caption"><span>MASOTERAPIA CON LESLIE DÍAZ ROJAS.</span><span>Presencia. Cuidado. Conexión.</span></div>
+      </figure>
+      <div class="hero-foot"><span>📍 Bosque San Carlos</span><span>Salud física y mental</span></div>
+    </section>
+
+    <section class="treatments section" id="tratamientos" aria-labelledby="treatments-title">
+      <div class="section-heading"><h2 id="treatments-title">MASAJES PARA<br>TU BIENESTAR.</h2><p>Masoterapia mixta.<br>Conoce los servicios de Leslie.</p></div>
+      <div class="treatment-layout">
+        <div class="treatment-choices" role="group" aria-label="Elige un servicio">
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="descontracturante" aria-pressed="false"><span>DESCONTRACTURANTE</span><span class="choice-detail">Trabajo localizado en las zonas donde sientes tensión.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="relajacion" aria-pressed="true"><span>RELAJANTE</span><span class="choice-detail">Movimientos suaves y un ritmo tranquilo para descansar.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="reductivo" aria-pressed="false"><span>REDUCTIVO</span><span class="choice-detail">Trabajo corporal enfocado en zonas específicas.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="drenaje" aria-pressed="false"><span>DRENAJE LINFÁTICO MANUAL</span><span class="choice-detail">Movimientos suaves y rítmicos sobre el cuerpo.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="gluteo" aria-pressed="false"><span>LEVANTAMIENTO DE GLÚTEO</span><span class="choice-detail">Trabajo focalizado en la zona de los glúteos.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="deportivo" aria-pressed="false"><span>DEPORTIVO</span><span class="choice-detail">Atención enfocada en los músculos que usas al entrenar.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="shantala" aria-pressed="false"><span>SHANTALA (BEBÉ)</span><span class="choice-detail">Masaje suave para compartir un momento con tu bebé.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+          <button class="treatment-choice" aria-controls="service-detail" data-treatment="embarazo" aria-pressed="false"><span>EMBARAZO</span><span class="choice-detail">Una sesión que considera tu etapa de embarazo y tu comodidad.</span><span class="choice-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="treatment-panel" id="service-detail" aria-live="polite" aria-atomic="true">
+          <svg class="pressure-mark" viewBox="0 0 240 150" fill="none" aria-hidden="true"><path d="M10 122C64 122 46 28 110 28S165 122 230 122"/><path d="M10 138C78 138 65 52 119 52s55 86 111 86"/><path d="M10 106C46 106 30 12 102 12s68 94 128 94"/></svg>
+          <div class="panel-copy"><p class="treatment-kicker" id="treatment-kicker">Para desconectarte del día</p><h3 id="treatment-title">MENOS RUIDO.<br>MÁS CALMA.</h3><p id="treatment-description">Movimientos suaves y un ritmo tranquilo para descansar y disfrutar el momento.</p><button class="text-button" data-book>Agenda tu hora <span aria-hidden="true">↗</span></button></div>
+        </div>
+      </div>
+      <div class="session-details">
+        <dl class="session-facts">
+          <div class="session-schedule"><dt>Horario de atención</dt><dd><span class="session-days">Lunes a viernes</span><span class="session-hours"><time datetime="08:00">08:00</time> a <time datetime="22:00">22:00</time></span></dd></div>
+          <div><dt>Duración aproximada</dt><dd class="session-duration">1 hora</dd></div>
+          <div><dt>Modalidad</dt><dd class="session-method">Servicios manuales</dd></div>
+        </dl>
+        <p class="session-note"><span>Atención con horario a coordinar.</span><span>Valores y disponibilidad por WhatsApp.</span></p>
+      </div>
+    </section>
+
+    <section class="approach section" id="enfoque" aria-labelledby="professional-name">
+      <aside class="professional-profile" aria-labelledby="professional-name">
+        <p class="profile-role">Masoterapia mixta</p>
+        <h2 id="professional-name">LESLIE DÍAZ<br>ROJAS</h2>
+        <p class="profile-philosophy">Salud física y mental.<br>Energía positiva, resultados positivos.</p>
+        <div class="profile-location"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Bosque San Carlos</span></div>
+      </aside>
+      <div class="approach-main"><h3 id="approach-title">NO TODOS LOS DÍAS<br>NECESITAS LO MISMO.<br><span>TU MASAJE TAMPOCO.</span></h3><div class="approach-copy"><p>La sesión comienza con una conversación: cómo te sientes, qué zonas te gustaría trabajar y qué presión te resulta cómoda.</p><p>El ritmo se ajusta durante el masaje. Puedes pedir un descanso, cambiar la intensidad o simplemente relajarte.</p></div></div>
+    </section>
+
+    <section class="first-visit section" aria-labelledby="visit-title">
+      <div class="visit-intro">
+        <h2 id="visit-title">TU PRIMERA SESIÓN,<br>SIN DUDAS.</h2>
+        <img class="visit-logo" src="assets/lesliemasai-logo-olive.png" alt="Logo de lesliemasai" width="1254" height="1254" loading="lazy" decoding="async">
+      </div>
+      <div class="faq-list">
+        <details><summary>¿Cómo consulto los valores?<span aria-hidden="true">+</span></summary><p>Los valores se informan por WhatsApp. Escríbeme para consultar por tu sesión y coordinar una hora.</p></details>
+        <details><summary>¿Cómo elijo mi tratamiento?<span aria-hidden="true">+</span></summary><p>Revisa los servicios y conversa con Leslie por WhatsApp para definir cuál se adapta a lo que buscas. La elección inicial se puede ajustar.</p></details>
+        <details><summary>¿Cuánto dura la sesión y en qué horario atiendes?<span aria-hidden="true">+</span></summary><p>La duración aproximada es de 1 hora. La atención es de lunes a viernes, entre las 08:00 y las 22:00, con horario a coordinar por WhatsApp.</p></details>
+        <details><summary>¿Puedo pedir menos presión?<span aria-hidden="true">+</span></summary><p>Sí. Tu comodidad guía la sesión. Puedes pedir un cambio de presión, descansar un momento o terminar el masaje en cualquier momento.</p></details>
+        <details><summary>¿Qué debo comentar antes de la sesión?<span aria-hidden="true">+</span></summary><p>Comenta cualquier molestia, lesión, embarazo o indicación de salud que debamos considerar antes de comenzar.</p></details>
+      </div>
+    </section>
+
+    <section class="closing" id="agendar" aria-labelledby="closing-title"><img class="closing-backdrop" src="assets/masoterapia-naturaleza.png" alt="" width="1536" height="1024" loading="lazy"><div class="closing-content"><p>Ese momento que siempre dejas para después.</p><h2 id="closing-title">HOY PUEDE SER<br>PARA TI.</h2><div class="social-actions"><a class="button social-button whatsapp-button" id="whatsapp-link" href="https://wa.me/" target="_blank" rel="noopener noreferrer"><span data-whatsapp-icon></span>Agendar por WhatsApp <span aria-hidden="true">↗</span></a><a class="button social-button instagram-button" id="instagram-link" href="https://www.instagram.com/lesliemasai/" target="_blank" rel="noopener noreferrer"><svg class="instagram-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-flash" cx="17.5" cy="6.5" r="1"/></svg>Ver Instagram <span aria-hidden="true">↗</span></a></div><p class="booking-pricing">Valores y disponibilidad por WhatsApp.</p></div></section>
+  </main>
+
+  <footer><div class="footer-top"><span>Leslie Díaz Rojas · Masoterapia mixta</span><a href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a></div><div class="footer-wordmark" aria-hidden="true">lesliemasai</div><div class="footer-bottom"><span>Salud física y mental.</span><span>Bosque San Carlos</span></div></footer>
+
+  <a class="whatsapp-floating" id="whatsapp-floating" href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="Contactar a Leslie por WhatsApp (abre en otra pestaña)" title="Escríbenos por WhatsApp"><span data-whatsapp-icon aria-hidden="true"></span></a>
+
+  <dialog id="booking" aria-labelledby="booking-title" aria-describedby="booking-note">
+    <div class="dialog-top"><span>UN MOMENTO PARA TI</span><button class="close-button" type="button" aria-label="Cerrar reserva">×</button></div>
+    <div id="booking-form-view"><h2 id="booking-title">AGENDA<br>TU HORA.</h2><p id="booking-note">Consulta valores y disponibilidad por WhatsApp. La reserva se confirma directamente en el chat.</p>
+      <form id="booking-form">
+        <button class="button social-button whatsapp-button" type="submit"><span data-whatsapp-icon></span>Continuar en WhatsApp <span aria-hidden="true">↗</span></button>
+      </form>
+    </div>
+    <div id="booking-success" hidden aria-live="polite"><span class="success-check" aria-hidden="true">✓</span><h2 id="booking-success-title" tabindex="-1">CONVERSEMOS<br>POR WHATSAPP.</h2><p id="booking-summary"></p><p class="demo-note">Tu mensaje está preparado. Envía la consulta en WhatsApp para coordinar y confirmar tu sesión.</p><a id="whatsapp-retry" class="button social-button whatsapp-button" href="https://wa.me/" target="_blank" rel="noopener noreferrer"><span data-whatsapp-icon></span>Abrir WhatsApp <span aria-hidden="true">↗</span></a><button class="text-button" type="button" id="booking-back">Volver <span aria-hidden="true">↗</span></button></div>
+  </dialog>
+</body>
+</html>

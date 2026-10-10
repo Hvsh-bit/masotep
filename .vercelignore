@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.firma/
+docs/
+tests/
+dist/
+.DS_Store
