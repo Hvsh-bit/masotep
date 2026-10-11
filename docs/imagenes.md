@@ -2,9 +2,17 @@
 
 Herramienta: image_gen integrada.
 
-## Actualización del 10-10-2026: logo original y portada de bienestar
+## Logo HD activo y favicon compatible con Safari
 
-Logo original conservado: `assets/lesliemasai-logo-original.png`, 828 × 828 px, copia exacta del archivo proporcionado. Logo activo y favicon: `assets/lesliemasai-logo.svg`. El SVG incrusta el PNG original sin modificar sus píxeles, mantiene sus canales RGB y elimina el fondo blanco mediante un filtro de alfa. Se utiliza en el encabezado y debajo del título de primera sesión, sin marco blanco. No es un trazado vectorial ni un redibujo generativo. El logo oliva descrito más abajo es una adaptación anterior y ya no aparece en la página.
+Nuevo original proporcionado: `assets/lesliemasai-logo-hd-original.png`, 1600 × 1600 px, copia exacta. Activo: `assets/lesliemasai-logo-hd.png`, PNG RGBA del mismo tamaño con fondo transparente. Se exportó localmente a partir del original, retirando el mate blanco y sus bordes; no se redibujaron letras ni figuras. La mejor definición proviene de la fuente HD. No se presenta como vector ni como detalle recuperado por IA.
+
+Se probó image_gen para el recorte, con la instrucción de retirar solo el fondo blanco, conservar el texto «Lesliemasai», colores, figuras y encuadre. El resultado generativo se descartó por alterar los bordes y no se publica.
+
+Favicon completo: `assets/favicon.ico` (16, 32 y 48 px), `assets/favicon-32.png`, `assets/favicon-192.png` y `assets/apple-touch-icon.png` (180 px). Se incluyen enlaces explícitos PNG/ICO y `apple-touch-icon` con una nueva versión de URL para evitar reutilizar el SVG anterior. Los derivados se reducen desde el PNG HD, conservan transparencia y no simplifican el dibujo.
+
+## Actualización anterior del 10-10-2026: logo de 828 px y portada de bienestar
+
+Original anterior conservado: `assets/lesliemasai-logo-original.png`, 828 × 828 px, y derivado anterior `assets/lesliemasai-logo.svg`. El SVG incrusta ese PNG y elimina el fondo blanco mediante un filtro de alfa. Ambos se conservan como históricos; el PNG HD los reemplaza en la página. No es un trazado vectorial. El logo oliva descrito más abajo también es una adaptación histórica.
 
 Foto vertical proporcionada: `assets/masoterapia-spa-original.png`, 736 × 1313 px. Se conserva intacta y se sirve en pantallas de hasta 760 px mediante `<picture>`.
 
@@ -30,8 +38,8 @@ Prompt:
 
 Use case: style-transfer. Edit target: provided Lesliemasai logo. Adapt this exact logo to a refined premium website in sage and olive. Preserve the recognizable standing female silhouette, open oval arc, leaf accents, three oil lamps and the exact handwritten name 'Lesliemasai'. Keep the original relative positions and identity. Convert all artwork to ONE flat muted dark olive ink color, no gradients, no shadows, no highlights, no additional ornaments. Simplify the tiny dotted decoration just enough for legibility at small size, retain major shapes. Remove the white background completely and produce actual transparent background with crisp clean edges. Crop with modest even padding around the logo. This is a restrained monochrome adaptation of the supplied logo, not a new unrelated logo.
 
-### Nitidez del logo y favicon
+### Nitidez de la versión anterior
 
-El logo completo de `assets/lesliemasai-logo.svg` se comparte entre encabezado, preguntas frecuentes y favicon. Incrusta el original sin redibujarlo; el filtro de nitidez enfatiza sus bordes y la transparencia retira el blanco. Un recorte del margen vacío elimina la línea del borde derecho. La resolución declarada de renderizado es 3312 × 3312, pero la fuente continúa siendo de 828 × 828: no se presenta como un trazado vectorial ni como recuperación de detalle perdido.
+El derivado anterior `assets/lesliemasai-logo.svg` incrusta el original de 828 px y declara un renderizado de 3312 px; no representa detalle nuevo. El PNG HD y los favicons PNG/ICO de la sección inicial sustituyen esta versión en todos los lugares activos.
 
 Se descartó una restauración generada con Imagegen por alterar los contornos y presentar halos. No se integra ninguna de esas variantes.
