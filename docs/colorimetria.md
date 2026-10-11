@@ -31,6 +31,8 @@ La biografía comienza con «Leslie Díaz, masoterapeuta profesional desde 2017�
 
 El enlace de demostraciones está debajo de la biografía y el enfoque, y se repite en el cierre. Ambos destinos se actualizan desde la configuración existente.
 
-El certificado de capacitación no estaba incluido entre las cuatro imágenes recibidas. Su transcripción queda pendiente del documento o de sus datos; no se publican credenciales, instituciones, cursos o fechas inventados.
+El certificado proporcionado se incorpora como texto en el perfil: Masoterapia Profesional, curso de nivel superior de un año académico impartido por el Centro de Capacitación Capacita Chile en La Serena, del 11 de abril de 2017 al 28 de febrero de 2018. El certificado de capacitación fue emitido el 10 de marzo de 2018. Se omiten identificadores personales y la fotografía del documento.
+
+El perfil mantiene el nombre como título principal y utiliza un tamaño común de 16 px para biografía, filosofía, ubicación, formación y descripción de la sesión. El enfoque utiliza un subtítulo de 24 a 30 px; los datos de emisión del certificado quedan como información secundaria de 14 px.
 
 WhatsApp conserva el verde anterior y su hover. Instagram conserva el degradado morado/naranja anterior, por indicación del usuario. La mayor definición del logo procede de la nueva fuente de 1600 px, sin ampliación artificial ni redibujo generativo. Se conserva el encuadre cuadrado completo y la paleta original.
