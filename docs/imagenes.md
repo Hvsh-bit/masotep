@@ -2,6 +2,18 @@
 
 Herramienta: image_gen integrada.
 
+## Actualización del 10-10-2026: logo original y portada de bienestar
+
+Logo original conservado: `assets/lesliemasai-logo-original.png`, 828 × 828 px, copia exacta del archivo proporcionado. Logo activo y favicon: `assets/lesliemasai-logo.svg`. El SVG incrusta el PNG original sin modificar sus píxeles, mantiene sus canales RGB y elimina el fondo blanco mediante un filtro de alfa. Se utiliza en el encabezado y debajo del título de primera sesión, sin marco blanco. No es un trazado vectorial ni un redibujo generativo. El logo oliva descrito más abajo es una adaptación anterior y ya no aparece en la página.
+
+Foto vertical proporcionada: `assets/masoterapia-spa-original.png`, 736 × 1313 px. Se conserva intacta y se sirve en pantallas de hasta 760 px mediante `<picture>`.
+
+Portada panorámica: `assets/masoterapia-spa-panoramica.png`, 1942 × 809 px. Adaptación generativa realizada con image_gen a partir de la foto vertical. Se amplió la escena hacia los lados y se reconstruyó detalle para un encuadre ancho; no se trata de recuperar detalle original perdido mediante una ampliación convencional. Conserva como referencia las toallas, velas, difusor, hoja, lámpara y luz cálida. Se sirve en escritorio, sin estirar la imagen. No se presenta como fotografía de la consulta de Leslie.
+
+Instrucción aplicada: adaptar la fotografía proporcionada a una composición panorámica aproximada de 2,4:1, extender naturalmente la mesa y el ambiente hacia los lados, mantener los objetos y materiales reconocibles, mejorar claridad y exposición conservando la luz cálida, sin personas, texto ni marcas nuevas.
+
+La imagen editorial de masaje anterior se conserva en los archivos, pero ya no se usa en la portada.
+
 ## Fondo de naturaleza
 
 Archivo: assets/masoterapia-naturaleza.png. Fotografía ilustrativa generada, no retrato de Leslie ni fotografía de su consulta. Fondo decorativo con opacidad del 50%, desenfoque CSS de 4 px y velo salvia del 50% para asegurar lectura.

@@ -65,3 +65,13 @@ Comparados los contenidos y accesos a reserva de QuiroHome, Masajes Profesionale
 ## Identidad definitiva y botón de portada
 
 Sustituidas las referencias a la identidad anterior en contenido, JavaScript, configuración y documentación. `LESLIEMASAI_CONFIG` comprobada mediante ejecución de ambos scripts: los ocho tratamientos generan consultas al número configurado y los enlaces de contacto flotante e Instagram conservan sus destinos. Botón de portada con márgenes automáticos, texto centrado y flecha posicionada a la derecha. Firma guard: cuatro archivos, cero errores y cero avisos. La alineación visual todavía requiere revisión en navegador.
+
+## Logo original, nueva paleta y atención a domicilio — 10-10-2026
+
+Aplicada la paleta petróleo, naranja y verde documentada en `colorimetria.md`. El SVG de la página y del favicon incrusta exactamente el PNG original, con un filtro que modifica únicamente el alfa para eliminar el blanco. Comprobadas las referencias al mismo archivo y la igualdad de los bytes originales. Revisión en Safari con recarga desde el origen: logo sin recuadro blanco, colores originales y sin marco.
+
+Portada con fotografía panorámica adaptada desde la imagen entregada; en móvil se utiliza la fotografía vertical original. Revisadas las vistas de 320, 375, 768 y 1366 px. Botón de portada centrado, biografía desde 2017, atención a domicilio e Instagram visibles. La pregunta frecuente sobre domicilio se expande y muestra su respuesta. El diálogo de reserva abre, explica ambas modalidades y cierra correctamente; no se enviaron mensajes.
+
+Verificación final: `npm run build`, `npm test` (3 pruebas aprobadas), sintaxis de JavaScript, parser HTML (IDs, jerarquía, referencias accesibles y assets), Firma guard (0 errores y 0 avisos) e Impeccable detect sin hallazgos. Los pares de texto/color de la nueva paleta superan 4,5:1. `dist/` incluye el favicon y los assets utilizados, y excluye `.env`.
+
+Pendiente únicamente transcribir el certificado de capacitación: no se adjuntó el documento ni sus datos. No se incorporaron certificaciones inventadas.
