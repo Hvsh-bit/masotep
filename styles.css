@@ -24,9 +24,11 @@
   --color-transparent: oklch(97.85% 0.005 165.01 / 0%);
   --color-nature-veil: oklch(97.85% 0.005 165.01 / 76%);
   --color-focus: var(--color-accent);
-  --color-whatsapp: var(--color-green);
-  --color-social-hover: var(--color-green-text);
-  --color-whatsapp-light: oklch(78% 0.13 144);
+  --color-whatsapp: oklch(47% 0.12 151);
+  --color-social-hover: oklch(40% 0.11 151);
+  --color-instagram-purple: oklch(48% 0.2 305);
+  --color-instagram-orange: oklch(56% 0.17 45);
+  --color-whatsapp-light: oklch(78% 0.2 151);
   --font-display: "Futura Display", "Futura Condensed", "Arial Narrow", Impact, sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   --text-display: clamp(3rem,5.5vw,5.5rem);
@@ -151,8 +153,8 @@ h3 { font-size: clamp(2.2rem,3vw,3.2rem); }
 .social-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-lg); margin-top: var(--space-2xl); }
 .button.social-button { min-height: 56px; border-radius: var(--radius-social); padding: var(--space-lg) var(--space-xl); background: var(--color-whatsapp); color: var(--color-light); border: 1px solid var(--color-whatsapp); gap: var(--space-lg); }
 .button.social-button:hover { background: var(--color-social-hover); border-color: var(--color-social-hover); opacity: 1; }
-.button.instagram-button { background: var(--color-accent); border-color: var(--color-accent); }
-.button.instagram-button:hover { background: var(--color-ink); border-color: var(--color-ink); opacity: 1; }
+.button.instagram-button { background: linear-gradient(115deg, var(--color-instagram-purple), var(--color-instagram-orange)); border-color: var(--color-transparent); }
+.button.instagram-button:hover { background: linear-gradient(115deg, var(--color-instagram-purple), var(--color-instagram-orange)); border-color: var(--color-transparent); opacity: .9; }
 .whatsapp-icon, .instagram-icon { display: block; width: 23px; height: 23px; flex: 0 0 23px; }
 .whatsapp-icon { fill: currentColor; }
 .instagram-icon { stroke: currentColor; stroke-width: 1.6; }
