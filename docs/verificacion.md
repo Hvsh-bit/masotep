@@ -79,3 +79,13 @@ Pendiente únicamente transcribir el certificado de capacitación: no se adjunt�
 ### Refinamiento final solicitado
 
 Restaurados exactamente los tokens anteriores del verde de WhatsApp y del degradado morado/naranja de Instagram. Comprobados visualmente ambos botones en Safari. El logo completo conserva la misma fuente PNG incrustada y sus formas; se añadió nitidez moderada con un filtro SVG, resolución de renderizado ampliada y recorte del margen vacío. Verificados visualmente en Safari la definición y la ausencia de la línea lateral. Se comparte entre las dos imágenes de la página y el favicon, con versión de caché actualizada. No se utiliza una versión simplificada ni la restauración generada descartada.
+
+## Logo HD y corrección del favicon
+
+- Nuevo original de 1600 × 1600 px conservado sin cambios en `assets/lesliemasai-logo-hd-original.png`.
+- PNG activo RGBA de 1600 × 1600 px con transparencia real, exportado desde esa fuente. Comparación visual sobre el fondo de la página: texto, silueta, arco, hojas, lámparas y colores conservados.
+- Safari local: encabezado y sección de primera sesión revisados; fondo transparente y bordes definidos, sin línea lateral.
+- Se sustituyó la declaración única SVG por ICO de 16/32/48 px, PNG de 32/192 px y `apple-touch-icon` PNG de 180 px. Todos derivan del logo completo y usan URL nueva `v=3`.
+- `npm run build` y `npm test`: correctos, 3 pruebas pasan. Firma guard: 0 errores y 0 avisos. Se verifican los archivos y tamaños de los favicon en `dist/assets`.
+- El resultado de recorte generativo se descartó; no se integra ni se publican cambios generativos del logo.
+- La visualización del favicon en el dominio se comprueba después de publicar; Safari puede conservar su caché de iconos en pestañas ya abiertas.
