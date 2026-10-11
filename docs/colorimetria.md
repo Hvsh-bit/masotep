@@ -23,7 +23,7 @@ Contrastes calculados a partir de los tokens actuales, convertidos a sRGB:
 - Texto claro sobre verde: 4,77:1.
 - Texto verde oscuro sobre panel: 5,90:1.
 
-El original de 828 × 828 px permanece intacto en `assets/lesliemasai-logo-original.png`. La página y el favicon utilizan `assets/lesliemasai-logo.svg`, que incrusta esos mismos píxeles y aplica transparencia y un ajuste local de nitidez. El archivo fuente conserva sus bytes originales y no se redibuja el logo ni se cambia su paleta. Este archivo no es un trazado vectorial del dibujo. La adaptación oliva anterior permanece como archivo histórico, sin referencias desde la página.
+El nuevo original de 1600 × 1600 px permanece intacto en `assets/lesliemasai-logo-hd-original.png`. La página utiliza `assets/lesliemasai-logo-hd.png`, con transparencia real. Se eliminó el papel blanco y se descontaminó el borde del mate blanco, sin redibujar las formas ni recolorear las zonas opacas. El mismo dibujo completo se exporta a PNG e ICO para el favicon y al icono Apple. Las versiones de 828 px, SVG y oliva permanecen como archivos históricos, sin referencias desde la página.
 
 ## Contenido
 
@@ -33,4 +33,4 @@ El enlace de demostraciones está debajo de la biografía y el enfoque, y se rep
 
 El certificado de capacitación no estaba incluido entre las cuatro imágenes recibidas. Su transcripción queda pendiente del documento o de sus datos; no se publican credenciales, instituciones, cursos o fechas inventados.
 
-WhatsApp conserva el verde anterior y su hover. Instagram conserva el degradado morado/naranja anterior, por indicación del usuario. La imagen compartida del logo utiliza nitidez moderada sobre los píxeles originales, resolución de renderizado ampliada y un recorte limitado al margen vacío para retirar la línea lateral. La fuente sigue siendo de 828 × 828 px; el SVG no representa detalle vectorial nuevo.
+WhatsApp conserva el verde anterior y su hover. Instagram conserva el degradado morado/naranja anterior, por indicación del usuario. La mayor definición del logo procede de la nueva fuente de 1600 px, sin ampliación artificial ni redibujo generativo. Se conserva el encuadre cuadrado completo y la paleta original.
