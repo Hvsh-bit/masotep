@@ -48,7 +48,7 @@ src: url("assets/Futura-Bold-Condensed.woff2") format("woff2");
 
 Marca: lesliemasai. Profesional: Leslie Díaz Rojas. Los valores se consultan directamente con la profesional. Biografía y ubicación Bosque San Carlos proporcionadas por el usuario. Los ocho servicios actuales, la duración aproximada, el horario y la modalidad manual provienen del afiche entregado por el usuario. Los textos complementarios deben revisarse con la profesional. No se inventaron precios, experiencia, certificaciones ni testimonios.
 
-Fotografía generada con la herramienta integrada Imagegen. Prompt final en [docs/imagen.md](docs/imagen.md), decisiones en [docs/diseno.md](docs/diseno.md) y comprobaciones en [docs/verificacion.md](docs/verificacion.md). Se conserva el original en [assets/masoterapia-editorial.png](assets/masoterapia-editorial.png).
+La portada utiliza la fotografía de spa proporcionada por el usuario en móvil y una adaptación panorámica generada con Imagegen en escritorio. Se conserva la imagen editorial anterior como archivo histórico. Procedencia en [docs/imagenes.md](docs/imagenes.md) y comprobaciones en [docs/verificacion.md](docs/verificacion.md).
 
-Imágenes: logo adaptado en `assets/lesliemasai-logo-olive.png` y fondo ilustrativo en `assets/masoterapia-naturaleza.png`. Prompts y procedencia en [docs/imagenes.md](docs/imagenes.md).
+El logo original conserva sus colores en `assets/lesliemasai-logo.svg`, con fondo transparente, y se utiliza también como favicon. El original recibido permanece en `assets/lesliemasai-logo-original.png`. Paleta de marca en [docs/colorimetria.md](docs/colorimetria.md). El cierre utiliza `assets/masoterapia-naturaleza.png`.
 

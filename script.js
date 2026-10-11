@@ -105,4 +105,6 @@ document.querySelectorAll('[data-whatsapp-icon]').forEach(element => element.inn
 updateWhatsappLink();
 
 const instagramUsername = String(window.LESLIEMASAI_CONFIG?.instagramUsername ?? 'lesliemasai').trim().replace(/^@/, '');
-document.querySelector('#instagram-link').href = `https://www.instagram.com/${encodeURIComponent(instagramUsername)}/`;
+document.querySelectorAll('#instagram-link, [data-instagram-link]').forEach(link => {
+  link.href = `https://www.instagram.com/${encodeURIComponent(instagramUsername)}/`;
+});

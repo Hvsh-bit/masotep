@@ -1,4 +1,4 @@
-/* firma · macro: Marquee · theme: Linen Olive · direction: editorial-sober · critique: P4 J5 E4 F4 H5 V5 */
+/* firma · macro: Marquee · theme: Lesliemasai Teal Orange Leaf · direction: editorial-sober · critique: P4 J5 E4 F4 H5 V4 */
 @font-face {
   font-family: "Futura Display";
   src: local("Futura Bold Condensed"), local("Futura-BoldCondensed"), local("FuturaBT-BoldCondensed"), local("Futura Condensed ExtraBold"), local("Futura-CondensedExtraBold");
@@ -7,24 +7,26 @@
   font-display: swap;
 }
 :root {
-  --color-paper: oklch(95% 0.008 135);
-  --color-paper-2: oklch(90% 0.021 130);
-  --color-paper-3: oklch(86% 0.028 130);
-  --color-ink: oklch(28% 0.027 116);
-  --color-muted: oklch(44% 0.022 110);
-  --color-border: oklch(77% 0.025 108);
-  --color-accent: oklch(40% 0.05 121);
-  --color-light: oklch(97% 0.008 135);
-  --color-scrim: oklch(20% 0.025 110 / 58%);
-  --color-image-shade: oklch(20% 0.025 110 / 65%);
-  --color-transparent: oklch(95% 0.008 135 / 0%);
-  --color-nature-veil: oklch(95% 0.008 135 / 50%);
-  --color-focus: oklch(44% 0.13 141);
-  --color-whatsapp: oklch(47% 0.12 151);
-  --color-social-hover: oklch(40% 0.11 151);
-  --color-instagram-purple: oklch(48% 0.2 305);
-  --color-instagram-orange: oklch(56% 0.17 45);
-  --color-whatsapp-light: oklch(78% 0.2 151);
+  --color-paper: oklch(97.85% 0.005 165.01);
+  --color-paper-2: oklch(94.75% 0.0104 174.27);
+  --color-paper-3: oklch(90.92% 0.0174 174.02);
+  --color-ink: oklch(33.30% 0.0428 212.13);
+  --color-muted: oklch(48.65% 0.0322 204.69);
+  --color-border: oklch(76.08% 0.0259 184.03);
+  --color-accent: oklch(46.75% 0.0753 223.43);
+  --color-orange: oklch(74.06% 0.1773 52.34);
+  --color-orange-hover: oklch(77% 0.165 56);
+  --color-green: oklch(53.17% 0.131 143.91);
+  --color-green-text: oklch(45.76% 0.1122 144.83);
+  --color-light: oklch(98.6% 0.006 165);
+  --color-scrim: oklch(22% 0.035 212 / 58%);
+  --color-image-shade: oklch(22% 0.035 212 / 85%);
+  --color-transparent: oklch(97.85% 0.005 165.01 / 0%);
+  --color-nature-veil: oklch(97.85% 0.005 165.01 / 76%);
+  --color-focus: var(--color-accent);
+  --color-whatsapp: var(--color-green);
+  --color-social-hover: var(--color-green-text);
+  --color-whatsapp-light: oklch(78% 0.13 144);
   --font-display: "Futura Display", "Futura Condensed", "Arial Narrow", Impact, sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   --text-display: clamp(3rem,5.5vw,5.5rem);
@@ -149,8 +151,8 @@ h3 { font-size: clamp(2.2rem,3vw,3.2rem); }
 .social-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-lg); margin-top: var(--space-2xl); }
 .button.social-button { min-height: 56px; border-radius: var(--radius-social); padding: var(--space-lg) var(--space-xl); background: var(--color-whatsapp); color: var(--color-light); border: 1px solid var(--color-whatsapp); gap: var(--space-lg); }
 .button.social-button:hover { background: var(--color-social-hover); border-color: var(--color-social-hover); opacity: 1; }
-.button.instagram-button { background: linear-gradient(115deg, var(--color-instagram-purple), var(--color-instagram-orange)); border-color: var(--color-transparent); }
-.button.instagram-button:hover { background: linear-gradient(115deg, var(--color-instagram-purple), var(--color-instagram-orange)); border-color: var(--color-transparent); opacity: .9; }
+.button.instagram-button { background: var(--color-accent); border-color: var(--color-accent); }
+.button.instagram-button:hover { background: var(--color-ink); border-color: var(--color-ink); opacity: 1; }
 .whatsapp-icon, .instagram-icon { display: block; width: 23px; height: 23px; flex: 0 0 23px; }
 .whatsapp-icon { fill: currentColor; }
 .instagram-icon { stroke: currentColor; stroke-width: 1.6; }
@@ -256,7 +258,7 @@ form { margin-top: var(--space-xl); }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 @media (prefers-reduced-transparency: reduce) { dialog::backdrop { background: var(--color-ink); backdrop-filter: none; } }
-@media (prefers-contrast: more) { :root { --color-muted: oklch(30% 0.022 110); --color-border: oklch(48% 0.025 108); } }
+@media (prefers-contrast: more) { :root { --color-muted: oklch(30% 0.035 212); --color-border: oklch(48% 0.026 184); } }
 
 /* Identidad y servicios proporcionados por Leslie. */
 .brand { display: inline-flex; align-items: center; gap: var(--space-md); }
@@ -361,7 +363,6 @@ footer { padding-bottom: calc(var(--space-3xl) + var(--space-4xl) + env(safe-are
   border: 0;
 }
 .session-details .session-facts > div { min-width: 0; }
-.session-details .session-facts > div + div { border-left: 1px solid var(--color-border); padding-left: var(--space-2xl); margin-left: var(--space-2xl); }
 .session-details .session-facts dt { font-size: .875rem; }
 .session-details .session-facts dd { margin-top: var(--space-md); }
 .session-days { display: block; }
@@ -383,12 +384,15 @@ footer { padding-bottom: calc(var(--space-3xl) + var(--space-4xl) + env(safe-are
 @media (max-width: 760px) {
   .session-details { padding: var(--space-xl); }
   .session-details .session-facts { grid-template-columns: minmax(0,1fr); gap: var(--space-xl); }
-  .session-details .session-facts > div + div { border-left: 0; border-top: 1px solid var(--color-border); padding-left: 0; padding-top: var(--space-lg); margin-left: 0; }
+  .session-details .session-facts > div + div { border: 0; border-top: 1px solid var(--color-border); padding-left: 0; padding-top: var(--space-lg); margin-left: 0; }
   .session-hours, .session-details .session-duration { font-size: 2.5rem; }
   .session-details .session-note { flex-direction: column; }
   .approach { grid-template-columns: minmax(0,1fr); }
   .professional-profile h3 { font-size: clamp(3.25rem,16vw,5rem); }
   .approach-main h2 { font-size: clamp(1.75rem,7.5vw,2.5rem); }
+}
+@media (min-width: 761px) {
+  .session-details .session-facts > div + div { border-left: 1px solid var(--color-border); padding-left: var(--space-2xl); margin-left: var(--space-2xl); }
 }
 
 /* Escala de lectura: identidad, servicios y reserva, luego detalles prácticos. */
@@ -469,3 +473,48 @@ dialog h2 { font-size: var(--text-heading); }
 
 .visit-intro { min-width: 0; }
 .visit-logo { width: clamp(160px,22vw,256px); max-width: 70%; height: auto; margin: var(--space-2xl) auto 0; }
+
+/* Paleta original: petróleo para lectura, naranja para reservar y verde para atención. */
+.brand-logo { border-radius: var(--radius); }
+.hero-title-wrap { align-items: start; }
+.hero-side { align-self: end; }
+.hero-image picture { display: block; }
+.hero-image img { object-position: center; }
+.button.primary, .hero-side .button.primary {
+  background: var(--color-orange);
+  color: var(--color-ink);
+  font-weight: 700;
+}
+.button.primary:hover { background: var(--color-orange-hover); }
+.nav-book { color: var(--color-accent); font-weight: 700; }
+.home-visit-label { color: var(--color-green-text); font-size: var(--text-caption); }
+.profile-role { color: var(--color-accent); }
+.profile-bio { max-width: 56ch; font-size: var(--text-body); line-height: 1.7; color: var(--color-muted); }
+.profile-bio strong { color: var(--color-ink); }
+.approach-main #approach-title { margin-top: var(--space-2xl); }
+.instagram-demo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-md);
+  min-height: 44px;
+  max-width: 100%;
+  margin-top: var(--space-xl);
+  padding-block: var(--space-sm);
+  color: var(--color-accent);
+  font-size: var(--text-action);
+  font-weight: 700;
+}
+.instagram-demo-link > span:first-of-type { text-decoration: underline; text-underline-offset: 5px; }
+.instagram-demo-link > span:last-child { margin-left: auto; }
+.instagram-demo-link:hover { color: var(--color-ink); }
+.instagram-demo-link:active { transform: translateY(1px); }
+.visit-logo { width: clamp(200px,24vw,300px); border: 0; }
+@media (max-width: 760px) {
+  .hero-image img { height: 420px; object-position: center 68%; }
+  .hero-foot { font-size: var(--text-caption); }
+  .instagram-demo-link { font-size: var(--text-caption); }
+  .visit-logo { max-width: 80%; }
+}
+@media (max-width: 380px) {
+  .hero-image img { height: 360px; }
+}

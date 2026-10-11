@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="lesliemasai. Leslie Díaz Rojas, masoterapia en Bosque San Carlos. Salud física y mental. Energía positiva, resultados positivos.">
-  <title>lesliemasai | Masoterapia en Bosque San Carlos</title>
+  <meta name="description" content="Leslie Díaz Rojas, masoterapeuta profesional desde 2017. Masoterapia mixta en Bosque San Carlos y a domicilio. Consulta los servicios y agenda tu sesión.">
+  <title>lesliemasai | Masoterapia en Bosque San Carlos y a domicilio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/lesliemasai-logo.svg" sizes="any">
   <link rel="stylesheet" href="styles.css">
   <script src="config.js" defer></script>
   <script src="script.js" defer></script>
@@ -12,7 +13,7 @@
 <body>
   <a class="skip-link" href="#contenido">Ir al contenido</a>
   <header class="header">
-    <a class="brand" href="#inicio" aria-label="lesliemasai, inicio"><img class="brand-logo" src="assets/lesliemasai-logo-olive.png" alt="" width="72" height="72"><span>lesliemasai</span></a>
+    <a class="brand" href="#inicio" aria-label="lesliemasai, inicio"><img class="brand-logo" src="assets/lesliemasai-logo.svg" alt="" width="828" height="828"><span>lesliemasai</span></a>
     <span class="brand-descriptor">Masoterapia<br>mixta</span>
     <nav aria-label="Navegación principal">
       <a href="#tratamientos">Servicios</a>
@@ -32,10 +33,13 @@
         </div>
       </div>
       <figure class="hero-image">
-        <img src="assets/masoterapia-editorial.png" alt="Manos de una masoterapeuta trabajando suavemente los hombros de una mujer sentada, en un espacio de luz natural." width="1536" height="1024" fetchpriority="high">
+        <picture>
+          <source media="(max-width: 760px)" srcset="assets/masoterapia-spa-original.png" width="736" height="1313">
+          <img src="assets/masoterapia-spa-panoramica.png" alt="Toallas, velas encendidas, un difusor y una hoja verde en un ambiente de luz cálida." width="1942" height="809" fetchpriority="high" decoding="async">
+        </picture>
         <div class="image-caption"><span>MASOTERAPIA CON LESLIE DÍAZ ROJAS.</span><span>Presencia. Cuidado. Conexión.</span></div>
       </figure>
-      <div class="hero-foot"><span>📍 Bosque San Carlos</span><span>Salud física y mental</span></div>
+      <div class="hero-foot"><span>Bosque San Carlos · También a domicilio</span><span>Salud física y mental</span></div>
     </section>
 
     <section class="treatments section" id="tratamientos" aria-labelledby="treatments-title">
@@ -60,37 +64,43 @@
         <dl class="session-facts">
           <div class="session-schedule"><dt>Horario de atención</dt><dd><span class="session-days">Lunes a viernes</span><span class="session-hours"><time datetime="08:00">08:00</time> a <time datetime="22:00">22:00</time></span></dd></div>
           <div><dt>Duración aproximada</dt><dd class="session-duration">1 hora</dd></div>
-          <div><dt>Modalidad</dt><dd class="session-method">Servicios manuales</dd></div>
+          <div><dt>Lugar de atención</dt><dd class="session-method">Bosque San Carlos<br><span class="home-visit-label">También a domicilio</span></dd></div>
         </dl>
-        <p class="session-note"><span>Atención con horario a coordinar.</span><span>Valores y disponibilidad por WhatsApp.</span></p>
+        <p class="session-note"><span>Servicios manuales. Horario a coordinar.</span><span>Consulta valores, disponibilidad y atención en tu sector por WhatsApp.</span></p>
       </div>
     </section>
 
     <section class="approach section" id="enfoque" aria-labelledby="professional-name">
       <aside class="professional-profile" aria-labelledby="professional-name">
-        <p class="profile-role">Masoterapia mixta</p>
+        <p class="profile-role">Masoterapeuta profesional desde 2017</p>
         <h2 id="professional-name">LESLIE DÍAZ<br>ROJAS</h2>
         <p class="profile-philosophy">Salud física y mental.<br>Energía positiva, resultados positivos.</p>
-        <div class="profile-location"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Bosque San Carlos</span></div>
+        <div class="profile-location"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Bosque San Carlos<br><span class="home-visit-label">Atención a domicilio</span></span></div>
       </aside>
-      <div class="approach-main"><h3 id="approach-title">NO TODOS LOS DÍAS<br>NECESITAS LO MISMO.<br><span>TU MASAJE TAMPOCO.</span></h3><div class="approach-copy"><p>La sesión comienza con una conversación: cómo te sientes, qué zonas te gustaría trabajar y qué presión te resulta cómoda.</p><p>El ritmo se ajusta durante el masaje. Puedes pedir un descanso, cambiar la intensidad o simplemente relajarte.</p></div></div>
+      <div class="approach-main">
+        <p class="profile-bio"><strong>Leslie Díaz, masoterapeuta profesional desde 2017.</strong> Ofrece masoterapia mixta con una atención que considera lo que necesitas en cada sesión. Atiende en Bosque San Carlos y también a domicilio, con horario a coordinar.</p>
+        <h3 id="approach-title">NO TODOS LOS DÍAS<br>NECESITAS LO MISMO.<br><span>TU MASAJE TAMPOCO.</span></h3>
+        <div class="approach-copy"><p>La sesión comienza con una conversación: cómo te sientes, qué zonas te gustaría trabajar y qué presión te resulta cómoda.</p><p>El ritmo se ajusta durante el masaje. Puedes pedir un descanso, cambiar la intensidad o simplemente relajarte.</p></div>
+        <a class="instagram-demo-link" data-instagram-link href="https://www.instagram.com/lesliemasai/" target="_blank" rel="noopener noreferrer" aria-label="Ver demostraciones de servicios realizados en Instagram (abre en otra pestaña)"><svg class="instagram-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-flash" cx="17.5" cy="6.5" r="1"/></svg><span>Ver masajes en Instagram</span><span aria-hidden="true">↗</span></a>
+      </div>
     </section>
 
     <section class="first-visit section" aria-labelledby="visit-title">
       <div class="visit-intro">
         <h2 id="visit-title">TU PRIMERA SESIÓN,<br>SIN DUDAS.</h2>
-        <img class="visit-logo" src="assets/lesliemasai-logo-olive.png" alt="Logo de lesliemasai" width="1254" height="1254" loading="lazy" decoding="async">
+        <img class="visit-logo" src="assets/lesliemasai-logo.svg" alt="Logo original de lesliemasai con silueta azul petróleo, arco naranja y hojas verdes." width="828" height="828" loading="lazy" decoding="async">
       </div>
       <div class="faq-list">
         <details><summary>¿Cómo consulto los valores?<span aria-hidden="true">+</span></summary><p>Los valores se informan por WhatsApp. Escríbeme para consultar por tu sesión y coordinar una hora.</p></details>
         <details><summary>¿Cómo elijo mi tratamiento?<span aria-hidden="true">+</span></summary><p>Revisa los servicios y conversa con Leslie por WhatsApp para definir cuál se adapta a lo que buscas. La elección inicial se puede ajustar.</p></details>
         <details><summary>¿Cuánto dura la sesión y en qué horario atiendes?<span aria-hidden="true">+</span></summary><p>La duración aproximada es de 1 hora. La atención es de lunes a viernes, entre las 08:00 y las 22:00, con horario a coordinar por WhatsApp.</p></details>
+        <details><summary>¿Realizas masajes a domicilio?<span aria-hidden="true">+</span></summary><p>Sí. Además de la atención en Bosque San Carlos, los servicios también se realizan a domicilio. Escríbeme por WhatsApp para consultar la atención en tu sector, disponibilidad y detalles antes de agendar.</p></details>
         <details><summary>¿Puedo pedir menos presión?<span aria-hidden="true">+</span></summary><p>Sí. Tu comodidad guía la sesión. Puedes pedir un cambio de presión, descansar un momento o terminar el masaje en cualquier momento.</p></details>
         <details><summary>¿Qué debo comentar antes de la sesión?<span aria-hidden="true">+</span></summary><p>Comenta cualquier molestia, lesión, embarazo o indicación de salud que debamos considerar antes de comenzar.</p></details>
       </div>
     </section>
 
-    <section class="closing" id="agendar" aria-labelledby="closing-title"><img class="closing-backdrop" src="assets/masoterapia-naturaleza.png" alt="" width="1536" height="1024" loading="lazy"><div class="closing-content"><p>Ese momento que siempre dejas para después.</p><h2 id="closing-title">HOY PUEDE SER<br>PARA TI.</h2><div class="social-actions"><a class="button social-button whatsapp-button" id="whatsapp-link" href="https://wa.me/" target="_blank" rel="noopener noreferrer"><span data-whatsapp-icon></span>Agendar por WhatsApp <span aria-hidden="true">↗</span></a><a class="button social-button instagram-button" id="instagram-link" href="https://www.instagram.com/lesliemasai/" target="_blank" rel="noopener noreferrer"><svg class="instagram-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-flash" cx="17.5" cy="6.5" r="1"/></svg>Ver Instagram <span aria-hidden="true">↗</span></a></div><p class="booking-pricing">Valores y disponibilidad por WhatsApp.</p></div></section>
+    <section class="closing" id="agendar" aria-labelledby="closing-title"><img class="closing-backdrop" src="assets/masoterapia-naturaleza.png" alt="" width="1536" height="1024" loading="lazy"><div class="closing-content"><p>Ese momento que siempre dejas para después.</p><h2 id="closing-title">HOY PUEDE SER<br>PARA TI.</h2><div class="social-actions"><a class="button social-button whatsapp-button" id="whatsapp-link" href="https://wa.me/" target="_blank" rel="noopener noreferrer"><span data-whatsapp-icon></span>Agendar por WhatsApp <span aria-hidden="true">↗</span></a><a class="button social-button instagram-button" id="instagram-link" href="https://www.instagram.com/lesliemasai/" target="_blank" rel="noopener noreferrer"><svg class="instagram-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-flash" cx="17.5" cy="6.5" r="1"/></svg>Ver demostraciones <span aria-hidden="true">↗</span></a></div><p class="booking-pricing">En Bosque San Carlos y a domicilio. Consulta valores y disponibilidad por WhatsApp.</p></div></section>
   </main>
 
   <footer><div class="footer-top"><span>Leslie Díaz Rojas · Masoterapia mixta</span><a href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a></div><div class="footer-wordmark" aria-hidden="true">lesliemasai</div><div class="footer-bottom"><span>Salud física y mental.</span><span>Bosque San Carlos</span></div></footer>
@@ -99,7 +109,7 @@
 
   <dialog id="booking" aria-labelledby="booking-title" aria-describedby="booking-note">
     <div class="dialog-top"><span>UN MOMENTO PARA TI</span><button class="close-button" type="button" aria-label="Cerrar reserva">×</button></div>
-    <div id="booking-form-view"><h2 id="booking-title">AGENDA<br>TU HORA.</h2><p id="booking-note">Consulta valores y disponibilidad por WhatsApp. La reserva se confirma directamente en el chat.</p>
+    <div id="booking-form-view"><h2 id="booking-title">AGENDA<br>TU HORA.</h2><p id="booking-note">Consulta valores y disponibilidad por WhatsApp. Indica si prefieres atención en Bosque San Carlos o a domicilio. La reserva se confirma directamente en el chat.</p>
       <form id="booking-form">
         <button class="button social-button whatsapp-button" type="submit"><span data-whatsapp-icon></span>Continuar en WhatsApp <span aria-hidden="true">↗</span></button>
       </form>
