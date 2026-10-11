@@ -29,3 +29,9 @@ Original conservado en assets/lesliemasai-logo-original.png. Adaptación en asse
 Prompt:
 
 Use case: style-transfer. Edit target: provided Lesliemasai logo. Adapt this exact logo to a refined premium website in sage and olive. Preserve the recognizable standing female silhouette, open oval arc, leaf accents, three oil lamps and the exact handwritten name 'Lesliemasai'. Keep the original relative positions and identity. Convert all artwork to ONE flat muted dark olive ink color, no gradients, no shadows, no highlights, no additional ornaments. Simplify the tiny dotted decoration just enough for legibility at small size, retain major shapes. Remove the white background completely and produce actual transparent background with crisp clean edges. Crop with modest even padding around the logo. This is a restrained monochrome adaptation of the supplied logo, not a new unrelated logo.
+
+### Nitidez del logo y favicon
+
+El logo completo de `assets/lesliemasai-logo.svg` se comparte entre encabezado, preguntas frecuentes y favicon. Incrusta el original sin redibujarlo; el filtro de nitidez enfatiza sus bordes y la transparencia retira el blanco. Un recorte del margen vacío elimina la línea del borde derecho. La resolución declarada de renderizado es 3312 × 3312, pero la fuente continúa siendo de 828 × 828: no se presenta como un trazado vectorial ni como recuperación de detalle perdido.
+
+Se descartó una restauración generada con Imagegen por alterar los contornos y presentar halos. No se integra ninguna de esas variantes.

@@ -68,10 +68,14 @@ Sustituidas las referencias a la identidad anterior en contenido, JavaScript, co
 
 ## Logo original, nueva paleta y atención a domicilio — 10-10-2026
 
-Aplicada la paleta petróleo, naranja y verde documentada en `colorimetria.md`. El SVG de la página y del favicon incrusta exactamente el PNG original, con un filtro que modifica únicamente el alfa para eliminar el blanco. Comprobadas las referencias al mismo archivo y la igualdad de los bytes originales. Revisión en Safari con recarga desde el origen: logo sin recuadro blanco, colores originales y sin marco.
+Aplicada la paleta petróleo, naranja y verde documentada en `colorimetria.md`. El SVG del logo de la página incrusta exactamente el PNG original, con un filtro que modifica únicamente el alfa para eliminar el blanco. Comprobadas las referencias al logo y la igualdad de los bytes originales. Revisión en Safari con recarga desde el origen: logo sin recuadro blanco, colores originales y sin marco.
 
 Portada con fotografía panorámica adaptada desde la imagen entregada; en móvil se utiliza la fotografía vertical original. Revisadas las vistas de 320, 375, 768 y 1366 px. Botón de portada centrado, biografía desde 2017, atención a domicilio e Instagram visibles. La pregunta frecuente sobre domicilio se expande y muestra su respuesta. El diálogo de reserva abre, explica ambas modalidades y cierra correctamente; no se enviaron mensajes.
 
 Verificación final: `npm run build`, `npm test` (3 pruebas aprobadas), sintaxis de JavaScript, parser HTML (IDs, jerarquía, referencias accesibles y assets), Firma guard (0 errores y 0 avisos) e Impeccable detect sin hallazgos. Los pares de texto/color de la nueva paleta superan 4,5:1. `dist/` incluye el favicon y los assets utilizados, y excluye `.env`.
 
 Pendiente únicamente transcribir el certificado de capacitación: no se adjuntó el documento ni sus datos. No se incorporaron certificaciones inventadas.
+
+### Refinamiento final solicitado
+
+Restaurados exactamente los tokens anteriores del verde de WhatsApp y del degradado morado/naranja de Instagram. Comprobados visualmente ambos botones en Safari. El logo completo conserva la misma fuente PNG incrustada y sus formas; se añadió nitidez moderada con un filtro SVG, resolución de renderizado ampliada y recorte del margen vacío. Verificados visualmente en Safari la definición y la ausencia de la línea lateral. Se comparte entre las dos imágenes de la página y el favicon, con versión de caché actualizada. No se utiliza una versión simplificada ni la restauración generada descartada.
