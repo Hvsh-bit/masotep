@@ -50,5 +50,5 @@ Marca: lesliemasai. Profesional: Leslie Díaz Rojas. Los valores se consultan di
 
 La portada utiliza la fotografía de spa proporcionada por el usuario en móvil y una adaptación panorámica generada con Imagegen en escritorio. Se conserva la imagen editorial anterior como archivo histórico. Procedencia en [docs/imagenes.md](docs/imagenes.md) y comprobaciones en [docs/verificacion.md](docs/verificacion.md).
 
-El logo original conserva sus colores en `assets/lesliemasai-logo.svg`, con fondo transparente. El mismo logo completo se utiliza como favicon. El SVG aplica transparencia y un ajuste de nitidez sobre la imagen original. El original recibido permanece en `assets/lesliemasai-logo-original.png`. Paleta de marca en [docs/colorimetria.md](docs/colorimetria.md). El cierre utiliza `assets/masoterapia-naturaleza.png`.
+El logo activo es `assets/lesliemasai-logo-hd.png`, de 1600 × 1600 px y fondo transparente, derivado del nuevo original conservado en `assets/lesliemasai-logo-hd-original.png`. Mantiene el dibujo y los colores de la imagen recibida. El mismo logo completo se exporta como favicon PNG/ICO y como icono Apple de 180 px para Safari. Las versiones anteriores permanecen como archivos históricos. Paleta de marca en [docs/colorimetria.md](docs/colorimetria.md). El cierre utiliza `assets/masoterapia-naturaleza.png`.
 
